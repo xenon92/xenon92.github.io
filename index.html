@@ -29,8 +29,21 @@
 			ga('create', 'UA-52789909-1', 'auto');
 			ga('send', 'pageview');
 		</script>
+
+
+		<!-- Page loading animation -->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script>
+			$(window).load(function() {
+				// Animate loader off screen
+				$(".se-pre-con").fadeOut("slow");;
+			});
+		</script>
 		
 	</head>
+
 	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
@@ -40,13 +53,8 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>Shubhang Rathore</h1>
-						
-						<!--
 
-						<p>Engineer &nbsp;&bull;&nbsp; Developer</p>
-
-						-->
-
+						<!-- <p> <font size="4">Software Developer &nbsp;&bull;&nbsp; India</font> </p> -->
 
 						<nav>
 							<ul>
@@ -58,20 +66,23 @@
 								<li><a href="https://github.com/xenon92" target="_blank" class="fa fa-github"><span>Github</span></a></li>
 								<li><a href="https://bitbucket.org/xenon92" target="_blank" class="fa fa-bitbucket"><span>Bitbucket</span></a></li>
 								<!-- 
-
 								<li><a href="#" class="fa fa-envelope-o"><span>Email</span></a></li>
-
 								-->
 							</ul>
+
 						</nav>
 					</header>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; 2014 Shubhang Rathore</span>
+						<span class="copyright">&copy; 2014 - 2015. All Rights Reserved.</span>
 					</footer>
 				
 			</div>
 		</div>
 	</body>
+
+	<!-- Web page loading animation -->
+	<div class="se-pre-con"></div>
+
 </html>
