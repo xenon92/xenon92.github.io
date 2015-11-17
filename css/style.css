@@ -85,8 +85,8 @@
 		-o-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-		background-color: #000000;
-		background-image: url("images/blue_solid.png");
+		background-color: #171F26;
+		/* background-image: url("images/blue_solid.png"); */
 		background-position: bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
